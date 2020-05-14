@@ -4,7 +4,7 @@ import scala.collection.mutable.HashMap
 class Agent(val discount: Double, val learning_rate: Double, val environment: Environment) {
     val Q_table : HashMap[String, Array[Float]] = new HashMap[String, Array[Float]]
     val rand = new Random
-    val num_of_action = 3// environment.num_of_action // UNCOMMENT
+    val num_of_action = 9// environment.num_of_action // UNCOMMENT // przy 9 zamiast 3 dziala
 
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = { // returns new state, reward, is_done
         if (math.random < 0.2 || !(Q_table.keySet.exists(_ == state))){
