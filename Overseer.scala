@@ -26,7 +26,22 @@ object Overseer{
                 agent.update(old_state, state, action, reward, done)
 
 
-                
+                // old_state_1 = state_1
+                // action_1 = agent_1.action(state_1, env.possibleActions())
+                // var (state_tmp, reward_2, done_tmp) = env.step(action_1)
+                // state_2 = state_tmp  // *sad scala noises*
+                // done_2 = done_tmp
+                // println(env.visualise)
+                // action_2 = agent_2.action(state_2, env.possibleActions())
+                // var (state_tmp, reward_1, done_tmp) = env.step(action_1)
+                // state_1 = state_tmp  // *sad scala noises*
+                // done_1 = done_tmp
+
+                // println(env.visualise)
+                // agent_1.update(old_state_1, state_1, action_1, reward_1, done_1)
+                // agent_1.update(old_state, state, action, reward, done)
+
+
             }
             done=false
             state = env.reset()
