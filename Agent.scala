@@ -4,7 +4,7 @@ import scala.collection.mutable.HashMap
 class Agent(val discount: Double, val learning_rate: Double, val environment: Environment) {
     val Q_table : HashMap[String, Array[Float]] = new HashMap[String, Array[Float]]
     val rand = new Random
-    val num_of_action = 9// environment.num_of_action // UNCOMMENT // przy 9 zamiast 3 dziala
+    val num_of_action = environment.numberOfPossibleActions
 
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = { // returns new state, reward, is_done
         if (math.random < 0.2 || !(Q_table.keySet.exists(_ == state))){
@@ -14,10 +14,10 @@ class Agent(val discount: Double, val learning_rate: Double, val environment: En
         }
     }
     
-    def update(state: String, next_state: String, action: Int, reward: Float) = { // updates Q dictionary
+    def update(state: String, next_state: String, action: Int, reward: Float, done: Boolean) = { // updates Q dictionary
         val first_update = Q_table.keySet.exists(_ == state)
 
-        val next_value = Q_table.getOrElse(next_state, Array[Float](0)).max
+        val next_value = if(done) 0 else Q_table.getOrElse(next_state, Array[Float](0)).max
         val old_value = if(first_update) Q_table(state)(action) else 0
 
         val update_value = old_value + learning_rate * (reward + discount * next_value - old_value)
@@ -43,7 +43,7 @@ object Runner{
         val agent = new Agent(0.1,0.1,null)
         for(i <- Vector(0,1,1,1,1,1,1,1,1,1,1,2)){
             println("action " ++ i.toString ++ " = "++ agent.action(i.toString, Vector(0,1,2)).toString)
-            agent.update(i.toString, i.toString, i, 1)
+            agent.update(i.toString, i.toString, i, 1, false)
         }
     }
 }

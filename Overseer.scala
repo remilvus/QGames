@@ -18,10 +18,15 @@ object Overseer{
             while(!done){
                 old_state = state
                 action = agent.action(state, env.possibleActions())
-                var (state_1, reward, done_1) = env.step(action)
-                state = state_1
-                done = done_1 // doesnt want to work without it
-                if(!done) agent.update(old_state, state, action, reward)
+                var (state_tmp, reward, done_tmp) = env.step(action)
+                state = state_tmp  // *sad scala noises*
+                done = done_tmp
+
+                println(env.visualise)
+                agent.update(old_state, state, action, reward, done)
+
+
+                
             }
             done=false
             state = env.reset()

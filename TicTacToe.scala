@@ -10,7 +10,7 @@ abstract class Environment () {
     def numberOfPossibleActions() : Int 
     def stateToString() : String
     def isCompleted() : Boolean
-
+    def visualise() : String // shows environment's state in readable format
 }
 
 class TicTacToe() extends Environment{
@@ -67,4 +67,9 @@ class TicTacToe() extends Environment{
         //print(res)
         res
     }
+
+    def visualise() = {
+        " " // todo
+    }
+
 }
