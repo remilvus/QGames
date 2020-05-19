@@ -1,16 +1,16 @@
 import scala.util.Random
 import scala.collection.mutable.HashMap
 
-class Agent(val discount: Double, val learning_rate: Double, val environment: Environment) {
+class Agent(val discount: Double, val learning_rate: Double) {
     val Q_table : HashMap[String, Array[Float]] = new HashMap[String, Array[Float]]
     val rand = new Random
-    val num_of_action = environment.numberOfPossibleActions
+    var num_of_action : Int = 0
 
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = { // returns new state, reward, is_done
-        if (math.random < 0.2 || !(Q_table.keySet.exists(_ == state))){
+        if (math.random < 0.2 || !(Q_table.keySet.exists(_ == state) || random)){
             rand.shuffle(possible_actions).head
         } else {
-            Q_table(state).zipWithIndex.maxBy(_._1)._2 // gets index of action with max value
+            Q_table(state).zipWithIndex.filter(val_idx => possible_actions.contains(val_idx._2)).maxBy(_._1)._2 // gets index of action with max value
         }
     }
     
@@ -40,7 +40,7 @@ class Agent(val discount: Double, val learning_rate: Double, val environment: En
 object Runner{
     
     def main(args: Array[String]){
-        val agent = new Agent(0.1,0.1,null)
+        val agent = new Agent(0.1,0.1)
         for(i <- Vector(0,1,1,1,1,1,1,1,1,1,1,2)){
             println("action " ++ i.toString ++ " = "++ agent.action(i.toString, Vector(0,1,2)).toString)
             agent.update(i.toString, i.toString, i, 1, false)

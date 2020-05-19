@@ -1,6 +1,6 @@
 import scala.collection.immutable.Vector
 
-abstract class Environment () {
+abstract class Environment (player: Agent) {
     var state = Array(0,0,0,0,0,0,0,0,0)
     var move = 0
 
@@ -13,13 +13,12 @@ abstract class Environment () {
     def visualise() : String // shows environment's state in readable format
 }
 
-class TicTacToe() extends Environment{
+class TicTacToe(player: Agent) extends Environment(player){
+    player.num_of_action = this.numberOfPossibleActions
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
         for (i <- 0 to 8) if(state(i) == 1) res = res + "x" else if(state(i) == -1) res = res + "o" else res = res + "-"
-        print(res)
-        print('\n')
         res
     }
 
@@ -35,10 +34,16 @@ class TicTacToe() extends Environment{
     }
 
     def step(action: Int) =  { //przemnozenie tablicy *-1, wykonanie kroku, zwrocenie res
-        state = state.map(_ * -1)
+     //   state = state.map(_ * -1)
         state(action) = 1
         move += 1
-        (stateToString(), 1.0f, isCompleted)
+   //     state = state.map(_ * -1)
+        if(!this.isCompleted()){
+            var inside_action = player.action(this.stateToString(), this.possibleActions())
+            state(inside_action) = -1
+            move += 1
+        }
+        (stateToString(), 1.0f, isCompleted) // todo: return positive reward on win/draw & negative reward on loss
     }
 
     def reset() = {
@@ -69,7 +74,22 @@ class TicTacToe() extends Environment{
     }
 
     def visualise() = {
-        " " // todo
+        val board = new StringBuilder(12)
+        for (i <- 0 to 2){
+            for (j <- 0 to 2) board.append(TicTacToe.tileToString(state(3*i+j)))
+            board.append("\n")
+        }
+        board.toString()
     }
 
+}
+
+object TicTacToe{
+    def tileToString(x: Int) : String = {
+        x match{
+            case 1 => "x"
+            case -1 => "o"
+            case _ => "-"
+        }
+    }
 }
