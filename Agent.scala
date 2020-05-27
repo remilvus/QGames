@@ -1,7 +1,20 @@
 import scala.util.Random
 import scala.collection.mutable.HashMap
 
-class Agent(val discount: Double, val learning_rate: Double) {
+abstract class Agent {
+    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) : Int
+}
+
+class HumanAgent extends Agent{
+    var env : Environment = null
+    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = {
+        println(env.visualise)
+        val input = readLine("> ")
+        input.toInt
+    }
+}
+
+class Q_Agent(val discount: Double, val learning_rate: Double) extends Agent {
     val Q_table : HashMap[String, Array[Float]] = new HashMap[String, Array[Float]]
     val rand = new Random
     var num_of_action : Int = 0
@@ -34,16 +47,9 @@ class Agent(val discount: Double, val learning_rate: Double) {
     def load(filename: String) = {
 
     }
-    
-}
 
-object Runner{
-    
-    def main(args: Array[String]){
-        val agent = new Agent(0.1,0.1)
-        for(i <- Vector(0,1,1,1,1,1,1,1,1,1,1,2)){
-            println("action " ++ i.toString ++ " = "++ agent.action(i.toString, Vector(0,1,2)).toString)
-            agent.update(i.toString, i.toString, i, 1, false)
-        }
+    def show() = {
+        for (elem <- this.Q_table.view) println(elem._1.toString +"|"+ elem._2.mkString(", ")) 
     }
+    
 }

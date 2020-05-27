@@ -14,7 +14,6 @@ abstract class Environment (player: Agent) {
 }
 
 class TicTacToe(player: Agent) extends Environment(player){
-    player.num_of_action = this.numberOfPossibleActions
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -24,6 +23,17 @@ class TicTacToe(player: Agent) extends Environment(player){
 
     def isCompleted () : Boolean = { // check czy partia sie skonczyla
         for(i <- 0 to 2) {
+            if (state(3*i) != 0 && state(3*i) == state(3*i+1) && state(3*i+1)== state(3*i+2)) return true
+            if (state(i) != 0 && state(i) == state(3+i) && state(3+i) == state(6+i)) return true
+        }
+        if (state(0) != 0 && state(0) == state(4) && state(8) == state(4)) return true
+        if (state(2) != 0 && state(2) == state(4) && state(6) == state(4)) return true
+        if (move == 9) return true
+        return false
+    }
+
+    def playerWon () : Boolean = { // check czy partia sie skonczyla
+        for(i <- 0 to 2) {
             if (state(3*i) == 1 && state(3*i+1) == 1 && state(3*i+2) == 1) return true
             if (state(i) == 1 && state(3+i) == 1 && state(6+i) == 1) return true
         }
@@ -32,6 +42,20 @@ class TicTacToe(player: Agent) extends Environment(player){
         if (move == 9) return true
         return false
     }
+
+    def getReward() : Float = {
+        if(this.isCompleted()){
+            if(this.playerWon){
+                return 5
+            }
+            for(i <- 0 to 8) this.state(i) = this.state(i) * (-1)
+            if(this.playerWon){
+                return -5
+            }
+            1
+         } else 0
+    }
+
 
     def step(action: Int) =  { //przemnozenie tablicy *-1, wykonanie kroku, zwrocenie res
      //   state = state.map(_ * -1)
@@ -43,7 +67,8 @@ class TicTacToe(player: Agent) extends Environment(player){
             state(inside_action) = -1
             move += 1
         }
-        (stateToString(), 1.0f, isCompleted) // todo: return positive reward on win/draw & negative reward on loss
+
+        (stateToString(), getReward, isCompleted) // todo: return positive reward on win/draw & negative reward on loss
     }
 
     def reset() = {
