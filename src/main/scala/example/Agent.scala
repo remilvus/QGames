@@ -16,7 +16,7 @@ class HumanAgent extends Agent{
         do {
             val input = readLine("> ")
             move = input.toInt
-        } while(move > 8 || move < 0)
+        } while((move > 8 || move < 0) || !(possible_actions contains move))
         move
     }
 }
