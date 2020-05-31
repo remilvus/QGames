@@ -1,13 +1,16 @@
+package Agent
+
 import scala.util.Random
 import scala.collection.mutable.HashMap
+import Environment.Environment
 
 abstract class Agent {
-    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) : Int
+    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false, optimal: Boolean = false) : Int
 }
 
 class HumanAgent extends Agent{
     var env : Environment = null
-    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = {
+    def action(state: String,  possible_actions: Vector[Int],  random: Boolean, optimal: Boolean) = {
         println(env.visualise)
         val input = readLine("> ")
         input.toInt
@@ -19,8 +22,8 @@ class Q_Agent(val discount: Double, val learning_rate: Double) extends Agent {
     val rand = new Random
     var num_of_action : Int = 0
 
-    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false) = { // returns new state, reward, is_done
-        if (math.random < 0.2 || !(Q_table.keySet.exists(_ == state) || random)){
+    def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false, optimal: Boolean = false) = { // returns new state, reward, is_done
+        if ((!(Q_table.keySet.exists(_ == state)) || (!optimal && (math.random < 0.5 || random)))){
             rand.shuffle(possible_actions).head
         } else {
             Q_table(state).zipWithIndex.filter(val_idx => possible_actions.contains(val_idx._2)).maxBy(_._1)._2 // gets index of action with max value

@@ -2,3 +2,21 @@ build
 reload
 compile
 run
+compile
+run
+1
+compile
+~compile
+run
+~compile
+run
+compile
+~compile
+run
+compile
+run
+~compile
+run
+exit
+train run
+run

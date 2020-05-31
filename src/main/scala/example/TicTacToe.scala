@@ -1,4 +1,7 @@
+package Environment
+
 import scala.collection.immutable.Vector
+import Agent.Agent
 
 abstract class Environment (player: Agent) {
     var state = Array(0,0,0,0,0,0,0,0,0)
@@ -46,13 +49,13 @@ class TicTacToe(player: Agent) extends Environment(player){
     def getReward() : Float = {
         if(this.isCompleted()){
             if(this.playerWon){
-                return 5
+                return 2
             }
             for(i <- 0 to 8) this.state(i) = this.state(i) * (-1)
             if(this.playerWon){
-                return -5
+                return -8
             }
-            1
+            2
          } else 0
     }
 
