@@ -1,25 +1,25 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/toot/Desktop/scala_projekt/target/scala-2.12/scala_projekt_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ewer/Desktop/scala_project/target/scala-2.12/scala_project_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Environment[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Environment[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Environment/TicTacToe.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Environment/TicTacToe.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Environment/Environment.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Environment/Environment.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Environment/TicTacToe$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Environment/TicTacToe$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Main[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main/Controller$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Main/Controller$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main/Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Main/Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Agent[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Agent[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Agent/HumanAgent.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Agent/HumanAgent.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Agent/Q_Agent.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Agent/Q_Agent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Agent[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Agent/Agent.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/toot/Desktop/scala_projekt/target/scala-2.12/classes/Agent/Agent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Agent/Agent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Agent/Q_Agent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Agent/Q_Agent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Agent/HumanAgent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Agent/HumanAgent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Environment[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment/TicTacToe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Environment/TicTacToe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment/Environment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Environment/Environment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment/TicTacToe$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Environment/TicTacToe$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Main/Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Controller$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ewer/Desktop/scala_project/target/scala-2.12/classes/Main/Controller$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

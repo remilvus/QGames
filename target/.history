@@ -20,3 +20,8 @@ run
 exit
 train run
 run
+play
+~config
+~compile
+play
+run

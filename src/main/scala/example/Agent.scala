@@ -12,8 +12,12 @@ class HumanAgent extends Agent{
     var env : Environment = null
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean, optimal: Boolean) = {
         println(env.visualise)
-        val input = readLine("> ")
-        input.toInt
+        var move = -1
+        do {
+            val input = readLine("> ")
+            move = input.toInt
+        } while(move > 8 || move < 0)
+        move
     }
 }
 
