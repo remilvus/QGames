@@ -2,6 +2,7 @@ package Environment
 
 import scala.collection.immutable.Vector
 import Agent.Agent
+import scala.util.control.Breaks._
 
 abstract class Environment (player: Agent) {
     var state = Array(0,0,0,0,0,0,0,0,0)
@@ -51,7 +52,7 @@ class TicTacToe(player: Agent) extends Environment(player){
             if(this.playerWon){
                 return 2
             }
-            for(i <- 0 to 8) this.state(i) = this.state(i) * (-1)
+            state = state.map(_ * -1)
             if(this.playerWon){
                 return -8
             }
@@ -105,6 +106,144 @@ class TicTacToe(player: Agent) extends Environment(player){
         val board = new StringBuilder(12)
         for (i <- 0 to 2){
             for (j <- 0 to 2) board.append(TicTacToe.tileToString(state(3*i+j)))
+            board.append("\n")
+        }
+        board.toString()
+    }
+
+}
+
+class ConnectFour(player: Agent){
+
+    var state = Array.ofDim[Int](6, 7)
+    var move = 0
+
+    def stateToString () = { //przeksztalcenie state na string
+        var res = ""
+        for (i <- 0 to 41) if(state(i/7)(i%7) == 1) res = res + "x" else if(state(i / 7)(i % 7) == -1) res = res + "o" else res = res + " "
+        res
+    }
+
+    def isCompleted () : Boolean = { // check czy partia sie skonczyla
+        if (move < 7) return false
+
+        for(x <- 0 to 6) // sprawdzanie pionowych linii
+            for(y <- 0 to 2) {
+                if(state(y)(x) != 0 && state(y)(x) == state(y+1)(x) && state(y+2)(x) == state(y+3)(x) && state(y+1)(x) == state(y+3)(x)) return true
+            }
+
+        for(x <- 0 to 5) // sprawdzanie poziomych linii
+            for(y <- 0 to 3) {
+                if(state(x)(y) != 0 && state(x)(y) == state(x)(y+1) && state(x)(y+2) == state(x)(y+3) && state(x)(y+1) == state(x)(y+3)) return true
+            }
+        
+        for(x <- 0 to 3) // sprawdzanie linii na ukos '/'
+            for(y <- 0 to 2) {
+                if(state(y)(x) != 0 && state(y)(x) == state(y+1)(x+1) && state(y+2)(x+2) == state(y+3)(x+3) && state(y+1)(x+1) == state(y+3)(x+3)) return true
+            }
+        
+         for(x <- 0 to 3) // sprawdzanie linii na ukos '\'
+            for(y <- 0 to 2) {
+                if(state(7-y)(7-x) != 0 && state(7-y)(7-x) == state(7-(y+1))(7-(x+1)) && state(7-(y+2))(7-(x+2)) == state(7-(y+3))(7-(x+3)) && state(7-(y+1))(7-(x+1)) == state(y+3)(x+3)) return true
+            }
+
+        if (move == 42) return true;
+        return false
+    }
+
+    def playerWon () : Boolean = { // check czy partia sie skonczyla
+        if (move < 7) return false
+
+        for(x <- 0 to 6) // sprawdzanie pionowych linii
+            for(y <- 0 to 2) {
+                if(state(y)(x) == 1 && state(y+1)(x) == 1 && state(y+2)(x) == 1 && state(y+3)(x) == 1) return true
+            }
+
+        for(x <- 0 to 5) // sprawdzanie poziomych linii
+            for(y <- 0 to 3) {
+                if(state(x)(y) == 1 && state(x)(y+1) == 1 && state(x)(y+2) == 1 && state(x)(y+3) == 1) return true
+            }
+        
+        for(x <- 0 to 3) // sprawdzanie linii na ukos '/'
+            for(y <- 0 to 2) {
+                if(state(y)(x) == 1 && state(y+1)(x+1) == 1&& state(y+2)(x+2) == 1 && state(y+3)(x+3) == 1) return true
+            }
+        
+         for(x <- 0 to 3) // sprawdzanie linii na ukos '\'
+            for(y <- 0 to 2) {
+                if(state(7-y)(7-x) == 1 && state(7-(y+1))(7-(x+1)) == 1 && state(7-(y+2))(7-(x+2)) == 1 && state(7-(y+3))(7-(x+3)) == 1) return true
+            }
+        return false;
+    }
+
+    def getReward() : Float = {
+        if(this.isCompleted()){
+            if(this.playerWon){
+                return 2
+            }
+            for(i <- 0 to 41) this.state(i/7)(i%7) = this.state(i/7)(i%7) * (-1)
+            if(this.playerWon){
+                return -8
+            }
+            2
+         } else 0
+    }
+
+
+    def step(action: Int) =  { //przemnozenie tablicy *-1, wykonanie kroku, zwrocenie res
+     //   state = state.map(_ * -1)
+        for (i <- 0 to 7) {
+            if (state(i)(action) == 0) {
+                state(i)(action) = 1
+                break
+            }
+        }
+        move += 1
+        if(!this.isCompleted()){
+            var inside_action = player.action(this.stateToString(), this.possibleActions())
+            for (i <- 0 to 7) {
+            if (state(i)(inside_action) == 0) {
+                state(i)(inside_action) = -1
+                break
+            }
+        }
+            move += 1
+        }
+
+        (stateToString(), getReward, isCompleted) // todo: return positive reward on win/draw & negative reward on loss
+    }
+
+    def reset() = {
+        state = Array.ofDim[Int](6, 7)
+        move = 0
+        "---------"
+    }
+
+    def possibleActions() = {
+        var res = Vector[Int]()
+        for (i <- (0 to 7)) {
+           if (state(5)(i) == 0) res = res :+ i
+        }
+        //print(res)
+        res
+    }
+
+    def numberOfPossibleActions() = {
+        val res = {
+            var tmp = 0
+            for (i <- 0 to 7){
+                if (state(6)(i) == 0) tmp+=1
+            }
+            tmp
+        }
+        //print(res)
+        res
+    }
+
+    def visualise() = {
+        val board = new StringBuilder(48)
+        for (i <- 0 to 6){
+            for (j <- 0 to 7) board.append(TicTacToe.tileToString(state(i)(j)))
             board.append("\n")
         }
         board.toString()

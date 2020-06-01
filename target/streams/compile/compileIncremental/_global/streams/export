@@ -1,1 +1,1 @@
-scalac -bootclasspath /home/ewer/.sbt/boot/scala-2.12.10/lib/scala-library.jar -classpath /home/ewer/Desktop/scala_project/target/scala-2.12/classes /home/ewer/Desktop/scala_project/src/main/scala/example/Agent.scala
+scalac -bootclasspath /home/ewer/.sbt/boot/scala-2.12.10/lib/scala-library.jar -classpath /home/ewer/Desktop/scala_project/target/scala-2.12/classes /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala

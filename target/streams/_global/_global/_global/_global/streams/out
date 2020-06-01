@@ -1,5 +1,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m[watch] [scala_project / Compile / compile] Found inputs: /home/ewer/Desktop/scala_project/*.{java,scala},/home/ewer/Desktop/scala_project/src/main/java/**/*.{java,scala},/home/ewer/Desktop/scala_project/src/main/resources/**/*,/home/ewer/Desktop/scala_project/src/main/scala/**/*.{java,scala},/home/ewer/Desktop/scala_project/src/main/scala-2.12/**/*.{java,scala}[0m
 [0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for scala_project/compile...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala_project / Compile / compile - Accepted event for /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala (previous stamp: Hash(98b86ae24f959d7836933e5f0122ee0db67d1238), current stamp: Hash(673f24d2d02b9408549c7224e9faac3fdf8128aa))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala -> Trigger. Returning: (Update(/home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala, 2020-cze-01 13:35:34.386 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala, 2020-cze-01 13:35:34.386 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for scala_project/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala_project / Compile / compile - Accepted event for /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala_project / Compile / compile - Accepted event for /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/ewer/Desktop/scala_project/src/main/scala/example/TicTacToe.scala. This event occurred 2 ms since the last event for this path.[0m
