@@ -3,7 +3,7 @@ package Main
 import Agent._
 import Environment._
 
-object Main{
+object Controller{
 
     def teach(agent: Q_Agent, env: Environment, iter: Int){
         println("training agent...")
@@ -15,7 +15,10 @@ object Main{
             while(!done){
                 old_state = state
                 action = agent.action(state, env.possibleActions())
+                
+                println("styp")
                 var (state_tmp, reward, done_tmp) = env.step(action)
+                 println("stasdadwdyp")
                 state = state_tmp 
                 done = done_tmp
                 agent.update(old_state, state, action, reward, done)
@@ -53,14 +56,18 @@ object Main{
     def test(){
         println("training agent...")
         var state : String = env.reset()
+        println("reset not failed")
         var old_state : String = ""
         var done : Boolean = false
         var action : Int = 0
         var lost = 0
         for (i <- 1 to 1000){ // learning; may need more iterations
             while(!done){
+                println("episode")
                 old_state = state
+                println("actt")
                 action = agent.action(state, env.possibleActions(), optimal=true)
+                 println("sepp")
                 var (_, reward, done_tmp) = env.step(action)
                 done = done_tmp
                 if (reward < 0) lost += 1
@@ -71,12 +78,7 @@ object Main{
         println("agent lost " + lost.toString + " out of 1000 games")
     }
 
-    def select(name: String) = {
-        print("select" + name)
-    }
-
     val training_pattern = raw"train (\d\d*)".r
-    val select_pattern = raw"select (\w\w*)".r
     val agent = new Q_Agent(discount=0.6, learning_rate=0.03)
     var env : Environment = new ConnectFour(agent)
 
@@ -88,7 +90,6 @@ object Main{
             val input = readLine("> ")
             input match {
                 case training_pattern(v) if v.toInt > 0 => teach(agent, env, v.toInt)
-                case select_pattern(name) => select(name)
                 case "play" => play()
                 case "test" => test()
                 case "exit" => sys.exit(0)

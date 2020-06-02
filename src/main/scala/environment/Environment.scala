@@ -4,8 +4,8 @@ import scala.collection.immutable.Vector
 import Agent.Agent
 import scala.util.control.Breaks._
 
+
 abstract class Environment (player: Agent) {
-    var state = Array(0,0,0,0,0,0,0,0,0)
     var move = 0
 
     def step(action: Int) : (String, Float, Boolean) // returns new state, reward, is_done
@@ -18,6 +18,7 @@ abstract class Environment (player: Agent) {
 }
 
 class TicTacToe(player: Agent) extends Environment(player){
+    var state = Array(0,0,0,0,0,0,0,0,0)
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -113,10 +114,8 @@ class TicTacToe(player: Agent) extends Environment(player){
 
 }
 
-class ConnectFour(player: Agent){
-
+class ConnectFour(player: Agent)  extends Environment(player){
     var state = Array.ofDim[Int](6, 7)
-    var move = 0
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -192,19 +191,25 @@ class ConnectFour(player: Agent){
 
     def step(action: Int) =  { //przemnozenie tablicy *-1, wykonanie kroku, zwrocenie res
      //   state = state.map(_ * -1)
-        for (i <- 0 to 7) {
-            if (state(i)(action) == 0) {
-                state(i)(action) = 1
-                break
+
+        breakable{
+            for (i <- 0 to 5) {
+                if (state(i)(action) == 0) {
+                    state(i)(action) = 1
+                    break
+                }
             }
         }
         move += 1
+        
         if(!this.isCompleted()){
             var inside_action = player.action(this.stateToString(), this.possibleActions())
-            for (i <- 0 to 7) {
-            if (state(i)(inside_action) == 0) {
-                state(i)(inside_action) = -1
-                break
+            breakable{
+                for (i <- 0 to 5) {
+                if (state(i)(inside_action) == 0) {
+                    state(i)(inside_action) = -1
+                    break
+                }
             }
         }
             move += 1
@@ -213,7 +218,7 @@ class ConnectFour(player: Agent){
         (stateToString(), getReward, isCompleted) // todo: return positive reward on win/draw & negative reward on loss
     }
 
-    def reset() = {
+    def reset() : String = {
         state = Array.ofDim[Int](6, 7)
         move = 0
         "---------"
@@ -221,7 +226,7 @@ class ConnectFour(player: Agent){
 
     def possibleActions() = {
         var res = Vector[Int]()
-        for (i <- (0 to 7)) {
+        for (i <- (0 to 6)) {
            if (state(5)(i) == 0) res = res :+ i
         }
         //print(res)
@@ -231,8 +236,8 @@ class ConnectFour(player: Agent){
     def numberOfPossibleActions() = {
         val res = {
             var tmp = 0
-            for (i <- 0 to 7){
-                if (state(6)(i) == 0) tmp+=1
+            for (i <- 0 to 6){
+                if (state(5)(i) == 0) tmp+=1
             }
             tmp
         }
