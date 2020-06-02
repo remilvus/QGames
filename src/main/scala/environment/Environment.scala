@@ -55,8 +55,10 @@ class TicTacToe(player: Agent) extends Environment(player){
             }
             state = state.map(_ * -1)
             if(this.playerWon){
+                state = state.map(_ * -1)
                 return -8
             }
+            state = state.map(_ * -1)
             2
          } else 0
     }
@@ -143,7 +145,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
         
          for(x <- 0 to 3) // sprawdzanie linii na ukos '\'
             for(y <- 0 to 2) {
-                if(state(7-y)(7-x) != 0 && state(7-y)(7-x) == state(7-(y+1))(7-(x+1)) && state(7-(y+2))(7-(x+2)) == state(7-(y+3))(7-(x+3)) && state(7-(y+1))(7-(x+1)) == state(y+3)(x+3)) return true
+                if(state(5-y)(6-x) != 0 && state(5-y)(6-x) == state(5-(y+1))(6-(x+1)) && state(5-(y+2))(7-(x+2)) == state(5-(y+3))(6-(x+3)) && state(5-(y+1))(6-(x+1)) == state(y+3)(x+3)) return true
             }
 
         if (move == 42) return true;
@@ -170,7 +172,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
         
          for(x <- 0 to 3) // sprawdzanie linii na ukos '\'
             for(y <- 0 to 2) {
-                if(state(7-y)(7-x) == 1 && state(7-(y+1))(7-(x+1)) == 1 && state(7-(y+2))(7-(x+2)) == 1 && state(7-(y+3))(7-(x+3)) == 1) return true
+                if(state(5-y)(6-x) == 1 && state(5-(y+1))(6-(x+1)) == 1 && state(5-(y+2))(6-(x+2)) == 1 && state(5-(y+3))(6-(x+3)) == 1) return true
             }
         return false;
     }
@@ -180,10 +182,12 @@ class ConnectFour(player: Agent)  extends Environment(player){
             if(this.playerWon){
                 return 2
             }
-            for(i <- 0 to 41) this.state(i/7)(i%7) = this.state(i/7)(i%7) * (-1)
+            for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
             if(this.playerWon){
+                for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
                 return -8
             }
+            for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
             2
          } else 0
     }
@@ -247,8 +251,8 @@ class ConnectFour(player: Agent)  extends Environment(player){
 
     def visualise() = {
         val board = new StringBuilder(48)
-        for (i <- 0 to 6){
-            for (j <- 0 to 7) board.append(TicTacToe.tileToString(state(i)(j)))
+        for (i <- 0 to 5){
+            for (j <- 0 to 6) board.append(TicTacToe.tileToString(state(5-i)(j)))
             board.append("\n")
         }
         board.toString()
