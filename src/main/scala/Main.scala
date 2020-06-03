@@ -132,26 +132,6 @@ object Controller{
             }
         }
 
-        // var state : String = env.reset()
-        // var old_state : String = ""
-        // var done : Boolean = false
-        // var action : Int = 0
-        // val learning_iter = 100 //000
-        // for (i <- 1 to learning_iter){ // learning; may need more iterations
-        //     while(!done){
-        //         old_state = state
-        //         action = agent.action(state, env.possibleActions())
-        //         var (state_tmp, reward, done_tmp) = env.step(action)
-        //         state = state_tmp  // *sad scala noises*
-        //         done = done_tmp
-        //         agent.update(old_state, state, action, reward, done)
-        //     }
-        //     done=false
-        //     state = env.reset()
-        // }
-
-
-        // agent.show()
     }
 }
 

@@ -56,13 +56,6 @@ class Q_Agent(val discount: Double, val learning_rate: Double) extends Agent {
         Q_table.update(state, values)
     }
 
-    def save() = {
-
-    }
-
-    def load(filename: String) = {
-
-    }
 
     def show() = {
         for (elem <- this.Q_table.view) println(elem._1.toString +"|"+ elem._2.mkString(", ")) 
