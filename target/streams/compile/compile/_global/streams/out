@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ewer/Desktop/scala_project/src/main/scala/environment/Environment.scala:183:33: value * is not a member of Array[Int][0m
-[0m[[0m[31merror[0m] [0m[0m            state = state.map(_ * -1)[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ewer/Desktop/scala_project/src/main/scala/environment/Environment.scala:187:33: value * is not a member of Array[Int][0m
-[0m[[0m[31merror[0m] [0m[0m            state = state.map(_ * -1)[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
