@@ -6,6 +6,9 @@ import scala.collection.immutable.Vector
 
 abstract sealed case class Environment (player: Agent) {
     var move = 0
+    val win_reward: Float
+    val lose_reward: Float
+    val draw_reward: Float
 
     def step(action: Int) : (String, Float, Boolean) // returns new state, reward, is_done
     def reset(): String
@@ -14,10 +17,15 @@ abstract sealed case class Environment (player: Agent) {
     def stateToString() : String
     def isCompleted() : Boolean
     def visualise() : String // shows environment's state in readable format
+    def start() : String // environment makes the first move
 }
 
 class TicTacToe(player: Agent) extends Environment(player){
     var state = Array(0,0,0,0,0,0,0,0,0)
+    val win_reward: Float = 4
+    val lose_reward: Float = -8
+    val draw_reward: Float = 2
+    var env_label: Int = -1
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -38,39 +46,45 @@ class TicTacToe(player: Agent) extends Environment(player){
 
     def playerWon () : Boolean = { // check czy partia sie skonczyla
         for(i <- 0 to 2) {
-            if (state(3*i) == 1 && state(3*i+1) == 1 && state(3*i+2) == 1) return true
-            if (state(i) == 1 && state(3+i) == 1 && state(6+i) == 1) return true
+            if (state(3*i) == -env_label && state(3*i+1) == -env_label && state(3*i+2) == -env_label) return true
+            if (state(i) == -env_label && state(3+i) == -env_label && state(6+i) == -env_label) return true
         }
-        if (state(0) == 1 && state(4) == 1 && state(8) == 1) return true
-        if (state(2) == 1 && state(4) == 1 && state(6) == 1) return true
-        if (move == 9) return true
+        if (state(0) == -env_label && state(4) == -env_label && state(8) == -env_label) return true
+        if (state(2) == -env_label && state(4) == -env_label && state(6) == -env_label) return true
         return false
     }
 
     def getReward() : Float = {
         if(this.isCompleted()){
             if(this.playerWon){
-                return 2
+                return win_reward
             }
             state = state.map(_ * -1)
             if(this.playerWon){
                 state = state.map(_ * -1)
-                return -8
+                return lose_reward
             }
             state = state.map(_ * -1)
-            2
+            draw_reward
          } else 0
     }
 
+    def start() : String = {
+        env_label = 1
+        var inside_action = player.action(this.stateToString(), this.possibleActions())
+        state(inside_action) = env_label
+        move += 1
+        stateToString()
+    }
 
     def step(action: Int) =  { //przemnozenie tablicy *-1, wykonanie kroku, zwrocenie res
      //   state = state.map(_ * -1)
-        state(action) = 1
+        state(action) = -env_label
         move += 1
    //     state = state.map(_ * -1)
         if(!this.isCompleted()){
             var inside_action = player.action(this.stateToString(), this.possibleActions())
-            state(inside_action) = -1
+            state(inside_action) = env_label
             move += 1
         }
 
@@ -78,6 +92,7 @@ class TicTacToe(player: Agent) extends Environment(player){
     }
 
     def reset() = {
+        env_label = -1
         state = Array(0,0,0,0,0,0,0,0,0)
         move = 0
         "---------"
@@ -133,6 +148,10 @@ object TicTacToe{
 class ConnectFour(player: Agent)  extends Environment(player){
     var state = Array.ofDim[Int](6, 7)
     val name = "ConnectFour"
+    val win_reward: Float = 4
+    val lose_reward: Float = -8
+    val draw_reward: Float = 2
+    var env_label = -1
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -172,22 +191,26 @@ class ConnectFour(player: Agent)  extends Environment(player){
 
         for(x <- 0 to 6) // sprawdzanie pionowych linii
             for(y <- 0 to 2) {
-                if(state(y)(x) == 1 && state(y+1)(x) == 1 && state(y+2)(x) == 1 && state(y+3)(x) == 1) return true
+                if(state(y)(x) == -env_label && state(y+1)(x) == -env_label
+                 && state(y+2)(x) == -env_label && state(y+3)(x) == -env_label) return true
             }
 
         for(x <- 0 to 5) // sprawdzanie poziomych linii
             for(y <- 0 to 3) {
-                if(state(x)(y) == 1 && state(x)(y+1) == 1 && state(x)(y+2) == 1 && state(x)(y+3) == 1) return true
+                if(state(x)(y) == -env_label && state(x)(y+1) == -env_label
+                 && state(x)(y+2) == -env_label && state(x)(y+3) == -env_label) return true
             }
         
         for(x <- 0 to 3) // sprawdzanie linii na ukos '/'
             for(y <- 0 to 2) {
-                if(state(y)(x) == 1 && state(y+1)(x+1) == 1&& state(y+2)(x+2) == 1 && state(y+3)(x+3) == 1) return true
+                if(state(y)(x) == -env_label && state(y+1)(x+1) == -env_label 
+                && state(y+2)(x+2) == -env_label && state(y+3)(x+3) == -env_label) return true
             }
         
          for(x <- 0 to 3) // sprawdzanie linii na ukos '\'
             for(y <- 0 to 2) {
-                if(state(5-y)(6-x) == 1 && state(5-(y+1))(6-(x+1)) == 1 && state(5-(y+2))(6-(x+2)) == 1 && state(5-(y+3))(6-(x+3)) == 1) return true
+                if(state(5-y)(6-x) == -env_label && state(5-(y+1))(6-(x+1)) == -env_label
+                 && state(5-(y+2))(6-(x+2)) == -env_label && state(5-(y+3))(6-(x+3)) == -env_label) return true
             }
         return false;
     }
@@ -195,16 +218,31 @@ class ConnectFour(player: Agent)  extends Environment(player){
     def getReward() : Float = {
         if(this.isCompleted()){
             if(this.playerWon){
-                return 2
+                return win_reward
             }
             for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
             if(this.playerWon){
                 for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
-                return -8
+                return lose_reward
             }
             for(i <- 0 to 5) state(i) = state(i).map(_ * -1)
-            2
+            draw_reward
          } else 0
+    }
+
+    def start() : String = {
+        env_label = 1
+        var inside_action = player.action(this.stateToString(), this.possibleActions())
+        breakable{
+            for (i <- 0 to 5) {
+                if (state(i)(inside_action) == 0) {
+                    state(i)(inside_action) = -1
+                    break
+                }
+            }
+        }
+        move += 1
+        stateToString()
     }
 
 
@@ -214,7 +252,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
         breakable{
             for (i <- 0 to 5) {
                 if (state(i)(action) == 0) {
-                    state(i)(action) = 1
+                    state(i)(action) = -env_label
                     break
                 }
             }
@@ -226,7 +264,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
             breakable{
                 for (i <- 0 to 5) {
                 if (state(i)(inside_action) == 0) {
-                    state(i)(inside_action) = -1
+                    state(i)(inside_action) = env_label
                     break
                 }
             }
@@ -238,6 +276,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
     }
 
     def reset() : String = {
+        env_label = -1
         state = Array.ofDim[Int](6, 7)
         move = 0
         "---------"

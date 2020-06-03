@@ -7,25 +7,29 @@ package Main{
 object Controller{
 
     def teach(agent: Q_Agent, env: Environment, iter: Int){
+        // traing agent for `iter` iterations
         println("training agent...")
-        var state : String = env.reset()
-        var old_state : String = ""
-        var done : Boolean = false
-        var action : Int = 0
-        for (i <- 1 to iter){ // learning; may need more iterations
+        var state = env.reset()
+        var old_state = ""
+        var done = false
+        var action = 0
+        var first = false
+        for (i <- 1 to iter){ // training loop
             while(!done){
                 old_state = state
                 action = agent.action(state, env.possibleActions())
-                
-                println("styp")
                 var (state_tmp, reward, done_tmp) = env.step(action)
-                 println("stasdadwdyp")
                 state = state_tmp 
                 done = done_tmp
                 agent.update(old_state, state, action, reward, done)
             }
             done=false
             state = env.reset()
+            first = !first
+            if(first){
+                state = env.start()
+            }
+
         }
         println("training ended")
     }
@@ -43,44 +47,52 @@ object Controller{
 
         var state : String = env.reset()
         human.env = env
-
+        var reward: Float = 0
 
          while(!done){
             old_state = state
             action = agent.action(state, env.possibleActions(), optimal=true)
-            var (state_tmp, _, done_tmp) = env.step(action)
+            val (state_tmp, reward_tmp, done_tmp) = env.step(action)
             state = state_tmp 
             done = done_tmp
-            println(env.visualise)
+            reward = reward_tmp
         }
-            done=false
-            state = env.reset()
+        println(env.visualise())
+
+        reward match{ // reward is given from perspective of the agent
+            case env.lose_reward => println("You won!!!")
+            case env.win_reward => println("You lost")
+            case env.draw_reward => println("Draw")
+            case _ => // should never happen
+        }
+
+        done=false
+        state = env.reset()
 
     }
 
     def test(){
         println("training agent...")
         var state : String = env.reset()
-        println("reset not failed")
         var old_state : String = ""
         var done : Boolean = false
         var action : Int = 0
         var lost = 0
+        var draw = 0
         for (i <- 1 to 1000){ // learning; may need more iterations
             while(!done){
-                println("episode")
                 old_state = state
-                println("actt")
                 action = agent.action(state, env.possibleActions(), optimal=true)
-                 println("sepp")
                 var (_, reward, done_tmp) = env.step(action)
                 done = done_tmp
-                if (reward < 0) lost += 1
+                if(env.lose_reward == reward) lost += 1
+                if(env.draw_reward == reward) draw += 1
             }
-            done=false
+            done = false
             state = env.reset()
+
         }
-        println("agent lost " + lost.toString + " out of 1000 games")
+        println("losses: " + lost.toString + "| draws: " + draw.toInt + " (out of 1000)")
     }
 
     def select(name: String) = {
@@ -103,7 +115,7 @@ object Controller{
     val training_pattern = raw"train (\d\d*)".r
     val select_pattern = raw"select (\w\w*)".r
     var agent = new Q_Agent(discount=0.6, learning_rate=0.03)
-    var env : Environment = new ConnectFour(agent)
+    var env : Environment = new TicTacToe(agent)
     agent.num_of_action = env.numberOfPossibleActions
 
     def main(args: Array[String]){

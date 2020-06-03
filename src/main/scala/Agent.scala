@@ -3,6 +3,8 @@ package Agent
 import scala.util.Random
 import scala.collection.mutable.HashMap
 import Environment._
+import scala.util.control.Exception.allCatch
+import scala.annotation.tailrec
 
 abstract class Agent {
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false, optimal: Boolean = false) : Int
@@ -13,11 +15,18 @@ class HumanAgent extends Agent{
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean, optimal: Boolean) = {
         println(env.visualise)
         var move = -1
-        do {
+
+        @tailrec
+        def go(): Int = {
             val input = readLine("o> ")
-            move = input.toInt
-        } while(!(possible_actions contains move))
-        move
+            val move: Option[Int] = allCatch.opt(input.toInt)
+            move match{
+                case None => go()
+                case Some(num) if(possible_actions contains num) => return num
+                case Some(_) => go()
+            }
+        }
+        go()
     }
 }
 
@@ -27,7 +36,7 @@ class Q_Agent(val discount: Double, val learning_rate: Double) extends Agent {
     var num_of_action : Int = 0
 
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false, optimal: Boolean = false) = { // returns new state, reward, is_done
-        if ((!(Q_table.keySet.exists(_ == state)) || (!optimal && (math.random < 0.5 || random)))){
+        if ((!(Q_table.keySet.exists(_ == state)) || (!optimal && (math.random < 0.3 || random)))){
             rand.shuffle(possible_actions).head
         } else {
             Q_table(state).zipWithIndex.filter(val_idx => possible_actions.contains(val_idx._2)).maxBy(_._1)._2 // gets index of action with max value
