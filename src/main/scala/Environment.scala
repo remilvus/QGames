@@ -1,11 +1,10 @@
 package Environment
 
-import scala.collection.immutable.Vector
 import Agent.Agent
 import scala.util.control.Breaks._
+import scala.collection.immutable.Vector
 
-
-abstract class Environment (player: Agent) {
+abstract sealed case class Environment (player: Agent) {
     var move = 0
 
     def step(action: Int) : (String, Float, Boolean) // returns new state, reward, is_done
@@ -116,8 +115,24 @@ class TicTacToe(player: Agent) extends Environment(player){
 
 }
 
+object TicTacToe{
+    val name = "TicTacToe"
+
+    def tileToString(x: Int) : String = {
+        x match{
+            case 1 => "x"
+            case -1 => "o"
+            case _ => "-"
+        }
+    }
+}
+
+
+
+
 class ConnectFour(player: Agent)  extends Environment(player){
     var state = Array.ofDim[Int](6, 7)
+    val name = "ConnectFour"
 
     def stateToString () = { //przeksztalcenie state na string
         var res = ""
@@ -260,12 +275,7 @@ class ConnectFour(player: Agent)  extends Environment(player){
 
 }
 
-object TicTacToe{
-    def tileToString(x: Int) : String = {
-        x match{
-            case 1 => "x"
-            case -1 => "o"
-            case _ => "-"
-        }
-    }
+
+object ConnectFour{
+    val name = "ConnectFour"
 }

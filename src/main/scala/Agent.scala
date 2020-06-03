@@ -2,7 +2,7 @@ package Agent
 
 import scala.util.Random
 import scala.collection.mutable.HashMap
-import Environment.Environment
+import Environment._
 
 abstract class Agent {
     def action(state: String,  possible_actions: Vector[Int],  random: Boolean = false, optimal: Boolean = false) : Int
@@ -14,7 +14,7 @@ class HumanAgent extends Agent{
         println(env.visualise)
         var move = -1
         do {
-            val input = readLine("> ")
+            val input = readLine("o> ")
             move = input.toInt
         } while(!(possible_actions contains move))
         move

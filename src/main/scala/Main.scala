@@ -1,7 +1,8 @@
-package Main
 
-import Agent._
 import Environment._
+import Agent._
+
+package Main{
 
 object Controller{
 
@@ -29,13 +30,17 @@ object Controller{
         println("training ended")
     }
 
-    def play(){
+    def play(current_env: Environment){
         
         var old_state : String = ""
         var done : Boolean = false
         var action : Int = 0
         val human = new HumanAgent()
-        val env = new ConnectFour(human)
+        val env = current_env match{
+            case _: ConnectFour => new ConnectFour(human)
+            case _: TicTacToe => new TicTacToe(human)
+        }
+
         var state : String = env.reset()
         human.env = env
 
@@ -78,19 +83,37 @@ object Controller{
         println("agent lost " + lost.toString + " out of 1000 games")
     }
 
+    def select(name: String) = {
+        name match {
+            case TicTacToe.name => {
+                    agent = new Q_Agent(discount=0.6, learning_rate=0.03)
+                    env = new TicTacToe(agent)
+                    agent.num_of_action = env.numberOfPossibleActions
+                }
+            case ConnectFour.name => {
+                    agent = new Q_Agent(discount=0.6, learning_rate=0.03)
+                    env = new ConnectFour(agent)
+                    agent.num_of_action = env.numberOfPossibleActions
+                }
+            case _ => println("Incorrect name")
+
+        }
+    }
+
     val training_pattern = raw"train (\d\d*)".r
-    val agent = new Q_Agent(discount=0.6, learning_rate=0.03)
+    val select_pattern = raw"select (\w\w*)".r
+    var agent = new Q_Agent(discount=0.6, learning_rate=0.03)
     var env : Environment = new ConnectFour(agent)
+    agent.num_of_action = env.numberOfPossibleActions
 
     def main(args: Array[String]){
-        
-        agent.num_of_action = env.numberOfPossibleActions
 
         while(true){
             val input = readLine("> ")
             input match {
                 case training_pattern(v) if v.toInt > 0 => teach(agent, env, v.toInt)
-                case "play" => play()
+                case select_pattern(name) => select(name)
+                case "play" => play(env)
                 case "test" => test()
                 case "exit" => sys.exit(0)
                 case _ => println("Bad command")
@@ -118,4 +141,6 @@ object Controller{
 
         // agent.show()
     }
+}
+
 }

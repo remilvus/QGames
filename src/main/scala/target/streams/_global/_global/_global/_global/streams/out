@@ -1,0 +1,1041 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [scala / Compile / compile] Found inputs: /home/toot/Desktop/scala_projekt/src/main/scala/*.{java,scala},/home/toot/Desktop/scala_projekt/src/main/scala/src/main/java/**/*.{java,scala},/home/toot/Desktop/scala_projekt/src/main/scala/src/main/resources/**/*,/home/toot/Desktop/scala_projekt/src/main/scala/src/main/scala/**/*.{java,scala},/home/toot/Desktop/scala_projekt/src/main/scala/src/main/scala-2.12/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(c17b24b1a71ec6192221623a413f12d5aded4814), current stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:46:28.350 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:46:28.350 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 10 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f), current stamp: Hash(11d913e25a43283081ad7888f816e9dd0db887c3))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:46:45.352 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:46:45.352 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(11d913e25a43283081ad7888f816e9dd0db887c3), current stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:47:16.825 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:47:16.825 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m4. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:48:58.102 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:48:58.102 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m5. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(d0585b1d400e7897b5e794bb7122e2749ced866e), current stamp: Hash(9510e3ed236e518449882c7088ffdc436f1bf907))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:49:36.929 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:49:36.929 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m6. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(dcee5443185ecba985da7dadd863eae71459b475), current stamp: Hash(ffe059a7fabf54fc4519f558a184aedc48f7b4b8))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:49:37.903 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:49:37.903 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m7. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(9510e3ed236e518449882c7088ffdc436f1bf907), current stamp: Hash(64dd6597de4e68041385637932cf2577321c2ba9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:50:04.833 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:50:04.833 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m8. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(64dd6597de4e68041385637932cf2577321c2ba9), current stamp: Hash(f3f7a43502c6e79ca40e905af7589824030aa006))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:16.622 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:16.622 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m9. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(f3f7a43502c6e79ca40e905af7589824030aa006), current stamp: Hash(6ca40a8f61508876c80d12fae9732135ede2aa05))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:28.188 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:28.188 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m10. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(6ca40a8f61508876c80d12fae9732135ede2aa05), current stamp: Hash(c2469f1b731ece6e0b5f4c3e3f991bbdbeee8b95))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:32.894 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:32.894 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m11. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(c2469f1b731ece6e0b5f4c3e3f991bbdbeee8b95), current stamp: Hash(5a2cbe5c4bda48cef8ad41dee5072f99bee12bd9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:40.870 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:40.870 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m12. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(5a2cbe5c4bda48cef8ad41dee5072f99bee12bd9), current stamp: Hash(b8f6c20052f012fd7db382d15fe8fafb66dbb58b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:52.039 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:52.039 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m13. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(b8f6c20052f012fd7db382d15fe8fafb66dbb58b), current stamp: Hash(483d535bb053392e47a76952081276c5d8b2267c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:57.129 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:51:57.129 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m14. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(483d535bb053392e47a76952081276c5d8b2267c), current stamp: Hash(e34ebe256b14ed430a88501779a991e98807c76a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:53:02.780 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 02:53:02.780 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m15. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger, /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:53:15.349 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 02:53:15.349 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m16. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f), current stamp: Hash(65952f3bdb243e74b653c2a44a46dab821a63b38))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:53:54.979 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 02:53:54.979 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m17. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(43e6d61e721dfb877c08724e609c108744f04f9f), current stamp: Hash(54c7347077cc90b21ec8c7c713dd460e683ae2d4))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:54:34.470 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:54:34.470 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m18. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(54c7347077cc90b21ec8c7c713dd460e683ae2d4), current stamp: Hash(2ff79a9d5a739de1c4f8c2e3b9ab856dc9d6150a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:56:32.495 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:56:32.495 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m19. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(2ff79a9d5a739de1c4f8c2e3b9ab856dc9d6150a), current stamp: Hash(18ba801d102296dfc1b49e940e0d41858355d887))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:56:46.597 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:56:46.597 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m20. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(18ba801d102296dfc1b49e940e0d41858355d887), current stamp: Hash(f751e52255963d2d758a85637e1387391bdd2776))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:57:02.536 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:57:02.536 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m21. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(f751e52255963d2d758a85637e1387391bdd2776), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:57:50.358 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:57:50.358 CET).[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0minfo[0m] [0m[0m22. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 9 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(86a4ac6042be6249f4546c84110f141fe916e46f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:59:03.518 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 02:59:03.518 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m23. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(65952f3bdb243e74b653c2a44a46dab821a63b38), current stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 03:01:49.491 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 03:01:49.491 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m24. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(86a4ac6042be6249f4546c84110f141fe916e46f), current stamp: Hash(628e0f90b35e98d37c2b663e7660859c387c1f56))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:01:55.323 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:01:55.323 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m25. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(628e0f90b35e98d37c2b663e7660859c387c1f56), current stamp: Hash(43e6d61e721dfb877c08724e609c108744f04f9f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:01:56.990 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:01:56.990 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m26. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(43e6d61e721dfb877c08724e609c108744f04f9f), current stamp: Hash(45871631c7ef4ab10268811b3f4386b264a0313f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:15.429 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:15.429 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m27. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(45871631c7ef4ab10268811b3f4386b264a0313f), current stamp: Hash(2111eb1be4d9140ad65d2abbd15b19f32aeff3a8))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:35.617 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:35.617 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m28. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(2111eb1be4d9140ad65d2abbd15b19f32aeff3a8), current stamp: Hash(cec6dd65f01e1c0e2a02a36a3f0b2aaf87e45cb7))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:51.076 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:02:51.076 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m29. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:04:11.280 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:04:11.280 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m30. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger. Returning: (Creation(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:05:09.083 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:05:09.083 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m31. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(05d76a64bc9edab7effa4fbd295346893482b676))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:05:47.833 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:05:47.833 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m32. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(ffe059a7fabf54fc4519f558a184aedc48f7b4b8), current stamp: Hash(aff0a82b955aab0b4945ba6dc1f55444dfd94b08))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:49.445 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:49.445 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m33. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 2 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(aff0a82b955aab0b4945ba6dc1f55444dfd94b08), current stamp: Hash(8de379923e733a2df6bbd0cdb3bb5e8fcd4a0c81))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:55.493 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:55.493 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m34. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(8de379923e733a2df6bbd0cdb3bb5e8fcd4a0c81), current stamp: Hash(c3ff8b18b98c222a5cf22dcdf12cdadb48c841fa))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:58.652 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:05:58.652 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m35. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(c3ff8b18b98c222a5cf22dcdf12cdadb48c841fa), current stamp: Hash(8b361df4a46c9c869f55cc3cb64f17deff3ba2e6))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:17.027 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:17.027 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m36. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(8b361df4a46c9c869f55cc3cb64f17deff3ba2e6), current stamp: Hash(4e1dc3705192e8cbc8c670bc3faeef30aab31641))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:37.995 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:37.995 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m37. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(4e1dc3705192e8cbc8c670bc3faeef30aab31641), current stamp: Hash(1653b20677d955c0711e0750e3916c73eb548b13))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:55.249 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:06:55.249 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m38. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(1653b20677d955c0711e0750e3916c73eb548b13), current stamp: Hash(92148f1828589193667052a6e2237b0ca7bf895a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:07:52.020 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:07:52.020 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m39. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(92148f1828589193667052a6e2237b0ca7bf895a), current stamp: Hash(beea13401f8650ff2f35a522958f9935bf1540c4))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:08:04.226 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:08:04.226 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m40. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(beea13401f8650ff2f35a522958f9935bf1540c4), current stamp: Hash(2e1a76799bca93087ea0fac147614d02e1c2624a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:08:54.441 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:08:54.441 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m41. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala (previous stamp: Hash(05d76a64bc9edab7effa4fbd295346893482b676), current stamp: Hash(8c051ec8c3a3020a81384d15fd78be2f17b6393c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:09:21.012 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:09:21.012 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m42. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(e34ebe256b14ed430a88501779a991e98807c76a), current stamp: Hash(4f97d88f4ef48ace4d6cf0d2b925705087c83c8b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:09:40.466 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:09:40.466 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m43. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala (previous stamp: Hash(8c051ec8c3a3020a81384d15fd78be2f17b6393c), current stamp: Hash(87cae7517ddb58dff30cbeccb9841df219435f11))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:12:21.068 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:12:21.068 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m44. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(4f97d88f4ef48ace4d6cf0d2b925705087c83c8b), current stamp: Hash(5e9ecdbd02a70e73b03b7e96c29b95c6b0f61bbd))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:12:26.971 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:12:26.971 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m45. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(2e1a76799bca93087ea0fac147614d02e1c2624a), current stamp: Hash(818d55a03eeccb8bbb0dcb23594153c4c37d9c7a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:12:27.567 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:12:27.567 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m46. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala (previous stamp: Hash(5e9ecdbd02a70e73b03b7e96c29b95c6b0f61bbd), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:12:43.781 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala, 2020-Jun-03 03:12:43.781 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m47. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala (previous stamp: Hash(87cae7517ddb58dff30cbeccb9841df219435f11), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:12:45.271 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:12:45.271 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m48. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(818d55a03eeccb8bbb0dcb23594153c4c37d9c7a), current stamp: Hash(bec162552ccc12582c066e29ba527f404b3dcd68))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:15:03.210 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:15:03.210 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m49. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(cec6dd65f01e1c0e2a02a36a3f0b2aaf87e45cb7), current stamp: Hash(ccded2e871579a43c22125409e19fb2f4497b986))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:15:05.603 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:15:05.603 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m50. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala -> Trigger, /home/toot/Desktop/scala_projekt/src/main/scala/TicTacToe.scala -> Trigger. Returning: (Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:15:20.290 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Deletion(/home/toot/Desktop/scala_projekt/src/main/scala/ConnectFour.scala, 2020-Jun-03 03:15:20.290 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m51. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(ccded2e871579a43c22125409e19fb2f4497b986), current stamp: Hash(a913822e99426e90f1f888c6bbb9d1567be56b64))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:15:51.866 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:15:51.866 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m52. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(a913822e99426e90f1f888c6bbb9d1567be56b64), current stamp: Hash(6ef74a628a7b9e1275f1f4b430fdc10c7076ea45))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:08.152 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:08.152 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m53. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(6ef74a628a7b9e1275f1f4b430fdc10c7076ea45), current stamp: Hash(a3959b0a1ece35e9f253f7c57fda48dfc52cb065))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:14.280 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:14.280 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m54. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(a3959b0a1ece35e9f253f7c57fda48dfc52cb065), current stamp: Hash(b04c2d2c0ccd0e6c6e07f67c9715e600f62ef706))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:20.704 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:16:20.704 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m55. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(bec162552ccc12582c066e29ba527f404b3dcd68), current stamp: Hash(02de70274d884f97cd81c1a1bd19b19dc8f02e1e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:17:22.345 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:17:22.345 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m56. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(02de70274d884f97cd81c1a1bd19b19dc8f02e1e), current stamp: Hash(870c20f215ebe9f919512c65ad98e31f1fdc5233))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:17:49.689 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:17:49.689 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m57. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(870c20f215ebe9f919512c65ad98e31f1fdc5233), current stamp: Hash(c2bf9283303fc626a6b3aba749a0929d21856d9b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:19:51.488 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:19:51.488 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m58. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(b04c2d2c0ccd0e6c6e07f67c9715e600f62ef706), current stamp: Hash(71139871055fa569919f9988accfddcd832a447c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:13.112 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:13.112 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m59. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(71139871055fa569919f9988accfddcd832a447c), current stamp: Hash(7c62937523b1d510d8dd8367ad054044a32d92fe))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:36.736 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:36.736 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m60. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(7c62937523b1d510d8dd8367ad054044a32d92fe), current stamp: Hash(a506a8806652216df3358197a373a48f3d1cd9d4))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:44.016 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:44.016 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m61. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(a506a8806652216df3358197a373a48f3d1cd9d4), current stamp: Hash(254334d8e6576e696decdabcdb507c7831aface1))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:46.729 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:21:46.729 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m62. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(254334d8e6576e696decdabcdb507c7831aface1), current stamp: Hash(a0cede066b4d04313d8e34b615dd6172b0a85cd9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:22:51.246 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:22:51.246 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m63. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(a0cede066b4d04313d8e34b615dd6172b0a85cd9), current stamp: Hash(0b8cad07a1fa1a219fdbd491914dfae0dfefd00c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:23:55.096 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:23:55.096 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m64. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(0b8cad07a1fa1a219fdbd491914dfae0dfefd00c), current stamp: Hash(39933ae77c2617fd53290f1bad092009732b132d))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:21.160 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:21.160 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m65. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(39933ae77c2617fd53290f1bad092009732b132d), current stamp: Hash(50261adb9158de9e77ca7e83fae0f9cff8e8b3b6))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:48.440 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:48.440 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m66. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(50261adb9158de9e77ca7e83fae0f9cff8e8b3b6), current stamp: Hash(b93a2eb9204ea2fe182d0a2f7a48a45e38c3cd79))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:57.985 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:24:57.985 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m67. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(c2bf9283303fc626a6b3aba749a0929d21856d9b), current stamp: Hash(3c78f3a9f8a2af9828d118429904a317b0bdc6be))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:26:46.327 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:26:46.327 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m68. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 2 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(b93a2eb9204ea2fe182d0a2f7a48a45e38c3cd79), current stamp: Hash(c8e737dcbd55512e586264bd09b5207086f5c0f9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:27:34.999 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:27:34.999 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m69. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(c8e737dcbd55512e586264bd09b5207086f5c0f9), current stamp: Hash(59daeeda57ec0bf2a791013b5fe93ae5535307d3))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:27:48.983 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:27:48.983 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m70. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(59daeeda57ec0bf2a791013b5fe93ae5535307d3), current stamp: Hash(ccae10261cf508c100040347737f9af7f66f4f28))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:28:24.429 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:28:24.429 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m71. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(ccae10261cf508c100040347737f9af7f66f4f28), current stamp: Hash(fd003e48ede7c4854ce89ba793ab7befcd6823ce))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:28:49.894 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:28:49.894 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m72. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(fd003e48ede7c4854ce89ba793ab7befcd6823ce), current stamp: Hash(1dd7c6d196d376588fcc3825dd4245839735768b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:29:32.848 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:29:32.848 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m73. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(1dd7c6d196d376588fcc3825dd4245839735768b), current stamp: Hash(724b62d0350a9f4cbb6b8b48599adcafce292651))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:17.903 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:17.903 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m74. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(724b62d0350a9f4cbb6b8b48599adcafce292651), current stamp: Hash(d5c3f7b42f7d460be6729ad5b8f15624ca22df72))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:32.895 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:32.895 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m75. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(d5c3f7b42f7d460be6729ad5b8f15624ca22df72), current stamp: Hash(e414f7c07344e4e3b8f9ac9d9c04ba0dd7f033dc))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:45.725 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:30:45.725 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m76. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala (previous stamp: Hash(e414f7c07344e4e3b8f9ac9d9c04ba0dd7f033dc), current stamp: Hash(d358561f3eb8db74ef0dcd80fdb91727d18fc52d))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:32:01.252 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Main.scala, 2020-Jun-03 03:32:01.252 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m77. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Main.scala. This event occurred 2 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala (previous stamp: Hash(413c3ea8df33fe909789b93c56bac9b406cd6e5f), current stamp: Hash(71754ffd941078feaba5e838d1115432c8e4f4da))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 03:32:41.264 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala, 2020-Jun-03 03:32:41.264 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m78. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 0 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala (previous stamp: Hash(3c78f3a9f8a2af9828d118429904a317b0bdc6be), current stamp: Hash(f0b62fed6e7d179401518a22c68b223401614d5e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala -> Trigger. Returning: (Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:33:10.788 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala, 2020-Jun-03 03:33:10.788 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m79. Monitoring source files for scala/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Environment.scala. This event occurred 2 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / compile - Accepted event for /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/toot/Desktop/scala_projekt/src/main/scala/Agent.scala. This event occurred 1 ms since the last event for this path.[0m
